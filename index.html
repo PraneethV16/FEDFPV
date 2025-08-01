@@ -7,7 +7,11 @@
 </head>
 <style>
     body{
-        background-color: blue;
+        background-color: aqua;
+    } 
+    label{
+        background-color: #db1f48;
+        padding-right: 1%;
     }
     </style>
 <body>
@@ -31,9 +35,11 @@
     <h2>Contact Us</h2> 
 <form> 
 <label for="name">Name:</label><br /> 
-<input type="text" id="name" name="name"><br /> 
+<input type="text" id="name" name="name"><br /> <br>
 <label for="email">Email:</label><br /> 
-<input type="email" id="email" name="email"><br /> 
+<input type="email" id="email" name="email"><br /> <br>
+<label for="city">City:</label><br>
+<input type="text" id="city" ><br><br>
 <button id="mybutton">submit</button>
 <style>
     #mybutton {
@@ -42,7 +48,7 @@
         transition: background-color 0.5s;
     }
     #mybutton:hover {
-        background-color: #004369;
+        background-color: green;
     }
 </style>
   </form>
