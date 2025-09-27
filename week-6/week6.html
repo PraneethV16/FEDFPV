@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+      body{
+        background-color: cornflowerblue;
+        padding:100px;
+      }
+      #city{
+        border-radius: 5px;
+      }
+     #btn{
+        background-color: rgb(45, 45, 204);
+        color:white;
+     border-radius:5px;
+      padding:10px;
+     }
+     #btn:hover{
+        background-color: cornflowerblue;
+     }
+     .input{
+      background-color: white;
+      border-radius: 20px;
+      width:500px;
+      padding:100px;
+     box-sizing: border-box;
+     }
+     
+    </style>
+</head>
+<body>
+    <center>
+      <div class="input">
+    <header style="font-size: large"><h1>WEATHER APP</h1></header><br><br><br>
+    <input type="text" id="city" placeholder="Enter the city name " style="font-size: medium">
+  <button id="btn" style="font-size: medium">GetResult</button>
+  </div>
+    </center>
+    <div id="output"></div>
+    <script src="week6.js"></script>
+</body>
+</html>
