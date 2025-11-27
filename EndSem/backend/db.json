@@ -1,0 +1,122 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "destination": "Goa",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "price": 5000,
+      "description": "Beautiful beaches, nightlife, water sports."
+    },
+    {
+      "id": 2,
+      "destination": "Manali",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "price": 7000,
+      "description": "Himalayan mountains, snow adventures, trekking."
+    },
+    {
+      "id": 3,
+      "destination": "Kerala",
+      "image": "https://images.unsplash.com/photo-1583132330774-153b0d39618b",
+      "price": 6500,
+      "description": "Backwaters, houseboats, greenery and nature."
+    },
+    {
+      "id": 4,
+      "destination": "Delhi",
+      "image": "https://images.unsplash.com/photo-1580910051073-5e3c7fe4f778",
+      "price": 5500,
+      "description": "Historic monuments, street food, city lifestyle."
+    },
+    {
+      "id": 5,
+      "destination": "Mumbai",
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada",
+      "price": 6000,
+      "description": "Bollywood city, beaches, nightlife, Marine Drive."
+    },
+    {
+      "id": 6,
+      "destination": "Chennai",
+      "image": "https://images.unsplash.com/photo-1595587495347-1ecf0b77b1d4",
+      "price": 5800,
+      "description": "Beaches, temples, classical heritage."
+    },
+    {
+      "id": 7,
+      "destination": "Hyderabad",
+      "image": "https://images.unsplash.com/photo-1583512603872-47ddc5c5052c",
+      "price": 4800,
+      "description": "Charminar, biryani, IT city."
+    },
+    {
+      "id": 8,
+      "destination": "Jaipur",
+      "image": "https://images.unsplash.com/photo-1548013146-055e8bcd8f16",
+      "price": 6200,
+      "description": "Pink city, palaces, forts, royal culture."
+    },
+    {
+      "id": 9,
+      "destination": "Darjeeling",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "price": 6800,
+      "description": "Tea gardens, mountains, toy train."
+    },
+    {
+      "id": 10,
+      "destination": "Andaman & Nicobar",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "price": 12000,
+      "description": "Crystal-clear beaches, scuba diving, islands."
+    },
+    {
+      "id": 11,
+      "destination": "Singapore",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "price": 35000,
+      "description": "Universal Studios, Marina Bay, city of the future."
+    },
+    {
+      "id": 12,
+      "destination": "Dubai",
+      "image": "https://images.unsplash.com/photo-1486739974072-cd7d2fbc1d8a",
+      "price": 45000,
+      "description": "Desert safari, Burj Khalifa, luxury lifestyle."
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "name": "Praneeth",
+      "destination": "Goa",
+      "date": "2025-02-10",
+      "price": 5000,
+      "tripId": 1
+    },
+    {
+      "id": 2,
+      "name": "Aarav",
+      "destination": "Manali",
+      "date": "2025-02-12",
+      "price": 7000,
+      "tripId": 2
+    },
+    {
+      "id": "9494",
+      "name": "Praneeth Vezendla",
+      "from": "hyderabad",
+      "destination": "Andaman & Nicobar",
+      "date": "2025-12-06",
+      "price": 12000,
+      "tripId": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "role": "admin"
+    }
+  ]
+}
