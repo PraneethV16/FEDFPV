@@ -53,16 +53,6 @@ border-color: green !important;
 .invalid { 
 border-color: red !important; 
 } 
-button { 
-width: 100%; 
-padding: 10px; 
-background: #007BFF; 
-border: none; 
-color: white; 
-border-radius: 6px; 
-font-size: 1em; 
-cursor: pointer; 
-} 
 button:hover { 
 background: #0056b3; 
 } 

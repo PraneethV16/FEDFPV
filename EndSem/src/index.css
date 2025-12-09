@@ -1,0 +1,65 @@
+/* index.css — global reset + base styling for Travel Booking App */
+
+/* Import font (Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth font + rendering */
+html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Nice background and smooth edges */
+body {
+  background: linear-gradient(180deg, #f2f5ff 0%, #f7f9fb 40%, #fcfdff 100%);
+  color: #0f172a;
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove link underline globally */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Default button reset */
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+/* Inputs reset */
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Scrollbar (modern slim style) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Prevent text selection on UI elements like buttons */
+button, .btn, .nav a {
+  user-select: none;
+}
